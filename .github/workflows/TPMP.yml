@@ -40,8 +40,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x ./Dailymotion.sh
-          ./Dailymotion.sh
+          chmod +x ./Stream/Dailymotion/Dailymotion.sh
+          ./Stream/Dailymotion/Dailymotion.sh
 
       - name: git add
         run: |
